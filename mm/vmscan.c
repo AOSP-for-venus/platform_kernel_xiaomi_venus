@@ -4634,6 +4634,9 @@ retry:
 	if (need_swapping && type == LRU_GEN_ANON)
 		*need_swapping = true;
 
+	if (need_swapping && type == LRU_GEN_ANON)
+		*need_swapping = true;
+
 	return scanned;
 }
 
