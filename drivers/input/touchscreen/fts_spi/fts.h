@@ -430,6 +430,7 @@ struct fts_ts_info {
 	int fod_icon_status;
 	int nonui_status;
 	bool fod_down;
+	int double_tap_pressed;
 };
 
 int fts_chip_powercycle(struct fts_ts_info *info);
